@@ -1,0 +1,76 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNx7a8SlLgJm2XgnVQFz5Z9",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/gashishkumar2201-collab/Python-class/blob/main/billing%20system\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "me7-P8HDG7fw"
+      },
+      "outputs": [],
+      "source": [
+        "a=23\n",
+        "b=43\n",
+        "c=a+b"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(\"billing system\")\n",
+        "first_item_name=input(\"enter first item name\")\n",
+        "first_item_quantity=int(input(\"enter first item quantity\"))\n",
+        "first_item_price=int(input(\"enter first item price\"))\n",
+        "first_item_discount=int(input(\"enter first item discount\"))\n",
+        "second_item_name=input(\"enter second item name\")\n",
+        "second_item_quantity=int(input(\"enter second item quantity\"))\n",
+        "second_item_price=int(input(\"enter second item price\"))\n",
+        "second_item_discount=int(input(\"enter second item discount\"))\n",
+        "third_item_name=input(\"enter third item name\")\n",
+        "third_item_quantity=int(input(\"enter third item quantity\"))\n",
+        "third_item_price=int(input(\"enter third item price\"))\n",
+        "third_item_discount=int(input(\"enter third item discount\"))\n",
+        "fourth_item_name=input(\"enter fourth item name\")\n",
+        "fourth_item_quantity=int(input(\"enter fourth item quantity\"))\n",
+        "fourth_item_price=int(input(\"enter fourth item price\"))\n",
+        "fourth_item_discount=int(input(\"enter fourth item discount\"))\n",
+        "amount=total_price = price * quantity\n",
+        "discount = (discount_percent / 100) * total_price\n",
+        "total_dicount=first_item_discount+second_item_discount+third_item_discount+third_item_discount\n",
+        "final_price = total_price -total_discount\n",
+        "print(\"first item name:  \",first_item_name)\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "cBecdYgV4xGg"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
